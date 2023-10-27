@@ -556,7 +556,7 @@
     display: block;
   }
 
-  .social-links svg {
+  .social-links > svg {
     color: var(--text-color);
   }
 
