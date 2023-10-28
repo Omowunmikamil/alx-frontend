@@ -409,6 +409,8 @@
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-display: inline-block;
     --nav-item-link-hover: var(--color-primary);
+    /* margin variables */
+    --section-tagline-margin: 0;
     /* button variables */
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
@@ -419,8 +421,6 @@
     --button-hover-color: var(--color-white);
     --button-hover-text-decoration: none;
     --button-hover-background: var(--color-primary);
-    /* margin variables */
-    --section-tagline-margin: 0;
   }
   
   body {
@@ -453,7 +453,7 @@
     background-color: var(--color-light-grey);
   }
 
-  button {
+  .button {
     display: var(--button-display);
     padding: var(--button-padding);
     border: var(--button-border);
@@ -462,7 +462,7 @@
     font-size: var(--button-font-size);
   }
 
-  button:hover {
+  .button:hover {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
