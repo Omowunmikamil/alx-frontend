@@ -600,22 +600,22 @@
   .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
   }
-
+  
   .nav .nav-link::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
+    background-color: var(--color-white);
     width: 0;
     height: 0.2rem;
-    background-color: var(--color-white);
   }
   
-  .nav .nav-item:hover  .nav-link::before{
-    color: var(--color-primary);
+  .nav .nav-item:hover .nav-link::before {
+    background-color: var(--color-primary);
     width: 100%;
   }
-
+  
   /* Hero section */
   .section-hero {
     background-size: 90rem auto;
